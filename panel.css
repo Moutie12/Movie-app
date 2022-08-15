@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Roboto:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.panel_control{
+    background-color: #858584;
+    padding-top: 20px;
+    width: 240px;
+    height: 661px;
+    display: inline-block;
+}
+.panel_control ul{
+    margin-top: 100px;
+    list-style-type: none;
+}
+.panel_control ul li{
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 98%;
+}
+.panel_control ul li:hover{
+    background-color: #BDBDBD;
+    cursor: pointer;
+}
+.panel_control ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #0001DE;
+}
+.panel_control h2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    margin-left: 10px;
+    font-family:Roboto;
+    transition: 0.5s;
+}
+#signout{
+    margin-right: 50px;
+    margin-top: 10px;
+    padding:12px 25px;
+    color: white;
+    font-size: 24px;
+    background-color: #5882FA;
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+#signout:hover{
+    cursor: pointer;
+    background-color: #BDBDBD;
+}
+.ajouter{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#titre{
+    display: inline-block;
+    font-size: 20px;
+    font-weight:inherit;
+    color:black;
+    border-bottom: red 2px solid;
+}
+#add{
+    height: 30px;
+    width: 320px;
+    border-radius: 10px;
+    border: #5882FA 1px solid;
+    font-size: 22px;
+    color: #0001DE;
+    margin-left: 10px;
+}
+
+#add1{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    color: #0001DE;
+    margin-left: 10px;
+}
+.ajj{
+    margin-top: 30px;
+}
+.who{
+    height: 35px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 3%;
+    left: 20%;
+}
+.table11{
+    position: absolute;
+    top:20%;
+    left: 30%;
+    height: 150px;
+    width: 800px;
+    border: 1px solid red;
+}
+#info{
+    margin-left: 80px ;
+}
+#tabb{
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    width: 1090px;
+}
+#submitt11{
+    padding: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 23px;
+    color: white;
+    background-color: #5882FA;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 133px;
+}
+#submitt11:hover{
+    cursor: pointer;
+    background-color: #BDBDBD;
+    color: black;
+}
